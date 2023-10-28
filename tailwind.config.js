@@ -7,10 +7,21 @@ module.exports = {
   ],
   theme: {
     extend: {
+      colors:{
+        dark: '#1C2226',
+        light: '#FAFAFA',
+        blue: '#024190',
+        lemon: '#BBE903'
+      },
       backgroundImage: {
-        'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
-        'gradient-conic':
-          'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
+        'blue-gradient': 'radial-gradient(ellipse at center, #80AEDF, transparent)',
+        'glass': 'linear-gradient(113.9deg, rgba(255,255,255,0.1) 17.93%, rgba(255,255,255,0.1) 44.28%, rgba(255,255,255,0.15) 63.93%, rgba(255,255,255,0.1) 88.25%)'
+      },
+      fontFamily: {
+        'eBold': ['Euclid Circular A', 'sans'], 
+        'eSemi': ['Euclid Circular A', 'sans'], 
+        'text': ['Euclid Circular A', 'sans'],
+        'eLight': ['Euclid Circular A', 'sans']
       },
     },
   },
