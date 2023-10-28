@@ -38,9 +38,9 @@ export default function Navbar() {
                 <span className={`block h-0.5 w-full bg-blue absolute top-3 transition-opacity ${isOpen ? 'opacity-0' : ''}`}></span>
                 <span className={`block h-0.5 w-full bg-blue absolute top-6 transition-transform ${isOpen ? 'transform -translate-y-3 -rotate-45' : ''}`}></span>
             </div>
-            <div className={`md:block ${isOpen ? 'h-screen bg-blue-gradient flex flex-col justify-center' : 'h-0 border-b  border-blue/40 backdrop-blur-[10px]'} fixed top-0 left-0 w-full  transition-height overflow-hidden md:h-auto`}>
+            <div className={`md:block ${isOpen ? 'h-screen bg-light bg-blue-gradient flex flex-col justify-center' : 'h-0 border-b bg-light  border-blue/40 backdrop-blur-[10px]'} fixed top-0 left-0 w-full  transition-height overflow-hidden md:h-auto`}>
                 <Container>
-                    <nav className="text-xl md:text-sm md:flex md:flex-row md:justify-around md:px-10 md:items-center md:transform-none md:top-auto">
+                    <nav className="text-xl md:text-sm lg:text-xl md:flex md:flex-row md:justify-around md:px-10 md:items-center md:transform-none md:top-auto cursor-pointer">
                         <Image
                             src="/images/logo.png"
                             alt="Vier Ecke Logo"
@@ -50,7 +50,7 @@ export default function Navbar() {
                         />
                         <ul className="list-none p-0 m-0 text-center flex flex-col items-center justify-center gap-4 md:flex-row md:gap-10">
                             {links.map((link, index) => (
-                                <li key={link.href} className="block h-1/4 min-h-12 transition-opacity transform transition-transform" style={{ animation: isOpen ? `fadeInFromBottom 0.5s forwards ${0.5 + index * 0.1}s` : '' }}>
+                                <li key={link.href} className="block h-1/4 min-h-12  transform transition-transform" style={{ animation: isOpen ? `fadeInFromBottom 0.5s forwards ${0.5 + index * 0.1}s` : '' }}>
                                     <Link href={link.href} className="block text-dark hover:text-blue font-eSemi relative overflow-hidden hover:after:w-full">
                                         {link.label}
                                     </Link>
