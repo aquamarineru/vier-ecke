@@ -16,7 +16,7 @@ export default function Hero() {
           <div className="flex justify-start w-full md:w-1/2">
             <Link
             href="/#contact"
-            className='bg-lemon bg-glass text-dark font-light rounded-full py-4 px-6 hover:bg-lemon/70'>Kontaktiren Sie uns</Link>
+            className='bg-lemon bg-glass text-dark font-semibold rounded-full py-4 px-6 hover:bg-lemon/70 transition-all duration-400 ease-in-out md:text-xl'>Kontaktiren Sie uns</Link>
           </div>
         </div>
         

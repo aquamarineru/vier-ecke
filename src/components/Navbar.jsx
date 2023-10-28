@@ -61,7 +61,7 @@ export default function Navbar() {
                         <ul className="list-none p-0 m-0 text-center flex flex-col items-center justify-center gap-4 md:flex-row md:gap-10">
                             {links.map((link, index) => (
                                 <li key={link.href} className="block h-1/4 min-h-12  transform transition-transform" style={{ animation: isOpen ? `fadeInFromBottom 0.5s forwards ${0.5 + index * 0.1}s` : '' }}>
-                                    <Link href={link.href} className="block text-dark hover:text-blue font-semibold relative overflow-hidden hover:after:w-full">
+                                    <Link href={link.href} className="block text-dark hover:text-lemon transition-all duration-400 ease-in-out  font-semibold relative overflow-hidden hover:after:w-full">
                                         {link.label}
                                     </Link>
                                 </li>
@@ -69,7 +69,7 @@ export default function Navbar() {
                         </ul>
                         <button
                             aria-label='Direkt Kontakt'
-                            className='mt-10 md:mt-0 bg-blue bg-glass text-light font-eSemi rounded-md py-2 px-4 hover:bg-blue/70'
+                            className='mt-10 md:mt-0 bg-blue bg-glass text-light font-semibold rounded-md py-2 px-4 hover:bg-blue/70 transition-all duration-400 ease-in-out'
                         >
                             <a
                                 className='flex flex-row items-center justify-center gap-3'
