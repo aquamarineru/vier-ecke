@@ -14,7 +14,8 @@ module.exports = {
         lemon: '#BBE903'
       },
       backgroundImage: {
-        'blue-gradient': 'radial-gradient(ellipse at center, #80AEDF, transparent)',
+        'blue-gradient': 'radial-gradient(ellipse at center, #688Fa3, transparent)',
+        'green-gradient': 'radial-gradient(ellipse at center, #B4DCD2, transparent)',
         'glass': 'linear-gradient(113.9deg, rgba(255,255,255,0.1) 17.93%, rgba(255,255,255,0.1) 44.28%, rgba(255,255,255,0.15) 63.93%, rgba(255,255,255,0.1) 88.25%)'
       },
       fontFamily: {

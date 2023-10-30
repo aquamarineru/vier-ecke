@@ -1,11 +1,11 @@
 import React from 'react'
-import { Container } from './'
+import { Container, Button } from './'
 import Image from 'next/image'
 import Link from 'next/link'
 
 export default function Hero() {
   return (
-    <div className='bg-blue-gradient h-full w-full font-bold md:pt-24'>
+    <div className='bg-blue-gradient h-full lg:h-screen w-full font-bold md:pt-24'>
       <Container className='flex flex-col-reverse md:justify-around md:flex-row items-center py-10'>
         <div className='flex flex-col items-start justify-center gap-3 px-2 lg:w-1/2'>
           <h2 className='font-light lg:text-xl'>Vier Ecke</h2>
@@ -14,9 +14,12 @@ export default function Hero() {
           <p className='font-light lg:text-xl md:w-2/3'>Senden Sie uns eine Anfrage – 
           <span className='font-semibold'>Wir erledigen das für Sie!</span> </p>
           <div className="flex justify-start w-full md:w-1/2">
-            <Link
-            href="/#contact"
-            className='bg-lemon bg-glass text-dark font-semibold rounded-full py-4 px-6 hover:bg-lemon/70 transition-all duration-400 ease-in-out md:text-xl'>Kontaktiren Sie uns</Link>
+            <Button
+            aria-label='contact us'>
+              <Link href="/#contact">
+                Kontaktiren Sie uns
+              </Link>
+            </Button>
           </div>
         </div>
         
