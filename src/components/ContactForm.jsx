@@ -92,7 +92,7 @@ export default function ContactForm() {
                 Absenden
             </Button>
         </div>
-        {popup && <div className="absolute top-0 left-0 right-0 bottom-0 bg-dark/80 flex items-center justify-center z-50">
+        {popup && <div className="absolute top-0 left-0 right-0 bottom-0 bg-dark/80 flex items-center justify-center">
             <div className="bg-light rounded-md p-5 flex flex-col items-center justify-center gap-5">
                 <p className="text-dark text-center">{popupMessage}</p>
                 <button

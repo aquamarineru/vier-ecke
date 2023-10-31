@@ -42,9 +42,9 @@ export default function Footer() {
                         </ul>
 
         </nav>
-        <div className='flex flex-row  items-center justify-between text-dark font-light text-xs gap-5 pt-5'>
+        <div className='flex flex-col md:flex-row  items-center justify-center md:justify-between text-dark font-light text-xs gap-2 md:gap-5 pt-5'>
           <div>©Copyright {currentYear} - Vier Ecke</div>
-          <p> Diese Homepage wurde von
+          <p className='text-center'> Diese Homepage wurde von
             <a 
             href="https://www.codecrafters.online/"
             target='_blank'

@@ -4,8 +4,8 @@ import Image from 'next/image'
 
 export default function Contact() {
   return (
-    <div className='h-full w-full py-10 md:py-24 bg-light md:px-10'>
-        <Container className='flex flex-col items-center '>
+    <div className='h-full w-full py-10 md:py-24 bg-light md:px-10 '>
+        <Container className='flex flex-col items-center'>
             <Title>Kontaktiren Sie uns</Title>
             <Title type='small'>Suchen Sie einen kompetenten Partner im&nbsp;Bereich Hausmeisterservice? Kontaktieren Sie uns. Wir freuen uns auf Ihre Nachricht!</Title>
             <div className='pt-10 flex flex-col md:flex-row justify-between lg:gap-5 items-center md:items-start'>

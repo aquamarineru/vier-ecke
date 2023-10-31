@@ -39,7 +39,7 @@ export default function Navbar() {
             className="object-cover object-center md:hidden"
             />
             <div
-                className="md:hidden fixed top-5 right-10 h-7 w-9 cursor-pointer z-10 transition-opacity hover:opacity-70 "
+                className="md:hidden fixed top-5 right-10 h-7 w-9 cursor-pointer z-50  transition-opacity hover:opacity-70 "
                 onClick={() => setIsOpen(!isOpen)}
             >
                 <span className={`block h-0.5 w-full bg-blue absolute transition-transform ${isOpen ? 'transform translate-y-3 rotate-45' : ''}`}></span>
@@ -48,7 +48,7 @@ export default function Navbar() {
             </div>
             </div>
             
-            <div className={`md:block ${isOpen ? 'h-screen bg-light bg-blue-gradient flex flex-col justify-center' : 'h-0 border-b bg-light  border-blue/40 backdrop-blur-[10px]'} fixed top-0 left-0 w-full  transition-height overflow-hidden md:h-auto`}>
+            <div className={`md:block ${isOpen ? 'h-screen bg-light bg-blue-gradient flex flex-col justify-center z-20' : 'h-0 border-b bg-light border-blue/40 backdrop-blur-[10px] z-50'} fixed top-0 left-0 w-full  transition-height overflow-hidden md:h-auto`}>
                 <Container>
                     <nav className="text-xl md:text-sm lg:text-xl md:flex md:flex-row md:justify-around md:px-10 md:items-center md:transform-none md:top-auto cursor-pointer">
                     <Image
