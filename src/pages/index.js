@@ -1,5 +1,5 @@
 import React from "react"
-import { Hero, Services, About } from '../components'
+import { Hero, Services, About, Contact } from '../components'
 
 
 export default function Home() {
@@ -7,7 +7,8 @@ export default function Home() {
     <>
       <Hero />
       <Services />
-      <About />
+     {/*  <About />
+      <Contact /> */}
     </>
   )
 }
