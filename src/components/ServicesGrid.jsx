@@ -18,7 +18,7 @@ export default function ServicesGrid() {
         <Title type='small'>
         RENOVIERUNGSARBEITEN
         </Title>
-        <p className='font-light text-sm md:text-base'>
+        <p className='font-light text-sm lg:text-base'>
         Wir übernehmen für Sie umfangreiche Renovierungsarbeiten, um Ihr Zuhause oder Geschäftsräume in neuem Glanz erstrahlen zu lassen. Unsere Fachkräfte arbeiten sorgfältig und zuverlässig – egal ob es sich um Malerarbeiten, Bodenbelagswechsel oder andere Instandsetzungsmaßnahmen handelt. Wir setzen Ihre Wünsche mit Präzision um.
         </p>
       </div>
@@ -26,7 +26,7 @@ export default function ServicesGrid() {
         <Title type='small'>
         RENOVIERUNGSARBEITEN
         </Title>
-        <p className='font-light text-sm md:text-base'>
+        <p className='font-light text-sm lg:text-base'>
         Wir übernehmen für Sie umfangreiche Renovierungsarbeiten, um Ihr Zuhause oder Geschäftsräume in neuem Glanz erstrahlen zu lassen. Unsere Fachkräfte arbeiten sorgfältig und zuverlässig – egal ob es sich um Malerarbeiten, Bodenbelagswechsel oder andere Instandsetzungsmaßnahmen handelt. Wir setzen Ihre Wünsche mit Präzision um.
         </p>
       </div>
@@ -34,7 +34,7 @@ export default function ServicesGrid() {
         <Title type='small'>
         RENOVIERUNGSARBEITEN
         </Title>
-        <p className='font-light text-sm md:text-base'>
+        <p className='font-light text-sm lg:text-base'>
         Wir übernehmen für Sie umfangreiche Renovierungsarbeiten, um Ihr Zuhause oder Geschäftsräume in neuem Glanz erstrahlen zu lassen. Unsere Fachkräfte arbeiten sorgfältig und zuverlässig – egal ob es sich um Malerarbeiten, Bodenbelagswechsel oder andere Instandsetzungsmaßnahmen handelt. Wir setzen Ihre Wünsche mit Präzision um.
         </p>
       </div>
@@ -42,7 +42,7 @@ export default function ServicesGrid() {
         <Title type='small'>
         RENOVIERUNGSARBEITEN
         </Title>
-        <p className='font-light text-sm md:text-base'>
+        <p className='font-light text-sm lg:text-base'>
         Wir übernehmen für Sie umfangreiche Renovierungsarbeiten, um Ihr Zuhause oder Geschäftsräume in neuem Glanz erstrahlen zu lassen. Unsere Fachkräfte arbeiten sorgfältig und zuverlässig – egal ob es sich um Malerarbeiten, Bodenbelagswechsel oder andere Instandsetzungsmaßnahmen handelt. Wir setzen Ihre Wünsche mit Präzision um.
         </p>
       </div>
