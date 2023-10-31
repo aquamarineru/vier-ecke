@@ -4,26 +4,40 @@ import Image from 'next/image'
 
 export default function Contact() {
   return (
-    <div className='h-screen w-full md:pt-24 bg-light'>
-        <Container className='flex flex-col items-center'>
+    <div className='h-full w-full py-10 md:py-24 bg-light md:px-10'>
+        <Container className='flex flex-col items-center '>
             <Title>Kontaktiren Sie uns</Title>
-            <Title type='small'>Suchen Sie einen kompetenten Partner im Bereich Hausmeisterservice? Kontaktieren Sie uns.Wir freuen uns auf Ihre Nachricht!</Title>
-            <div className='flex flex-row justify-around items-start'>
+            <Title type='small'>Suchen Sie einen kompetenten Partner im&nbsp;Bereich Hausmeisterservice? Kontaktieren Sie uns. Wir freuen uns auf Ihre Nachricht!</Title>
+            <div className='pt-10 flex flex-col md:flex-row justify-between lg:gap-5 items-center md:items-start'>
                 <div className='flex flex-col'>
-                    <h3>
-                    Vier Ecke Hausmeisterservice
+                    <h3 className='font-semibold'>
+                    "Vier Ecke" Hausmeisterservice
                     </h3>
-                    <p className='font-light'>Herr Schmied</p>
-                    <p className='font-light'>
-                        Telefon: +49 123 456 7890</p>  
-                    <p className='font-light'>E-Mail: info@vierecke.com</p> 
+                    <div className='flex flex-row font-light items-center gap-2'>
+                        <label className='font-light'>
+                            Telefon: 
+                        </label> 
+                        <a 
+                        href="tel:+491626983111" 
+                        target="_blank"
+                        className='hover:text-lemon hover:underline transform transition-colors'>+491626983111</a>
+                    </div>
+                    <div className='flex flex-row font-light items-center gap-2'>
+                        <label className='font-light'>
+                            Email: 
+                        </label> 
+                        <a 
+                        href="mailto:feedback@vierecke.com" 
+                        target="_blank"
+                        className='hover:text-lemon hover:underline transform transition-colors'>info@vierecke.com</a>
+                    </div>
                     <Image
                     src='/images/contact.png'
                     alt='Vier Ecke Contact Illustration'
                     width={1400}
                     height={800}
                     sizes='(width: 600px) 100vw, 600px'
-                    className='object-cover object-center w-[450px] h-[400px]'
+                    className='hidden md:block object-cover object-center md:mt-10 md:w-[350px] md:h-[250px] lg:w-[450px] lg:h-[300px]'
                     />
                 </div>
                 <ContactForm />
