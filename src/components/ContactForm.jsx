@@ -41,7 +41,7 @@ export default function ContactForm() {
         onSubmit={sendEmail} >
         <div className='relative mb-2 h-[4rem]'>
         <label
-        className=' uppercase bg-glass bg-[#b8d0fbbd] rounded  absolute top-[-.3rem] left-[1.25rem] p-[0.25rem]'>Name</label>
+        className=' uppercase bg-glass  rounded  absolute top-[-.3rem] left-[1.25rem] p-[0.25rem]'>Name</label>
         <input 
         type="text" 
         name="name" 
@@ -51,18 +51,18 @@ export default function ContactForm() {
         </div>
         <div className='relative mb-2 h-[4rem]'>
             <label
-            className=' uppercase bg-glass bg-[#b8d0fbbd] rounded  absolute top-[-.3rem] left-[1.25rem] p-[0.25rem] '>Email</label>
+            className=' uppercase bg-glass  rounded  absolute top-[-.3rem] left-[1.25rem] p-[0.25rem] '>Email</label>
             <input 
             
             type="email" 
             name="email"  
             placeholder='Ihre E-Mail' 
             required
-            className="border-[1px] bg-glass border-blue/40 bg-[#b8d0fbbd]  rounded-md px-3 py-3 mt-2 w-full "/>
+            className="border-[1px] bg-glass border-blue/40 bg-[#b8cffbb0]  rounded-md px-3 py-3 mt-2 w-full "/>
         </div>
         <div className='relative mb-2 h-[4rem]'>
             <label
-            className='uppercase absolute top-[-.3rem] left-[1.25rem] p-[0.25rem] bg-[#b8d0fbbd] rounded '>Nachricht</label>
+            className='uppercase absolute top-[-.3rem] left-[1.25rem] p-[0.25rem] bg- rounded '>Nachricht</label>
             <textarea
             name='message' 
             cols="30" 
