@@ -3,7 +3,9 @@ import { Container, Title, ServicesGrid } from '../components'
 
 export default function Services() {
   return (
-    <div className='bg-linear-gradient h-full w-full py-10 md:py-24'>
+    <div
+    id='services' 
+    className='bg-linear-gradient h-full w-full py-10 md:py-24'>
         <Container className='flex flex-col items-center'>
             <Title>
                 Unsere Services

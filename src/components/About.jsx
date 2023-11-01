@@ -5,11 +5,13 @@ import Link from 'next/link'
 
 export default function About() {
   return (
-    <div className='h-full w-full py-10 md:py-24 bg-linear-gradient'>
+    <div
+    id='about'
+    className='h-full w-full py-10 md:py-24 bg-linear-gradient'>
         <Container className='flex flex-col items-center'>
             <Title>ÜBER UNS</Title>
             <Title type='small'>Wer steckt hinter Hausmeisterservices "vier Ecke"?</Title>
-            <div className='pt-10 flex flex-col-reverse md:flex-row justify-around items-start gap-10'>
+            <div className='pt-10 flex flex-col-reverse md:flex-row justify-around items-center md:items-start gap-10'>
                 <div className='flex flex-col md:w-1/2 justify-between items-start gap-4 font-light text-sm lg:text-base'>
                     <p>Wir sind Hausmeisterservices &laquo;vier Ecke&raquo;&nbsp;&mdash; Ihr zuverl&auml;ssiger Partner im&nbsp;Herzen der Region. Unser Name spiegelt unsere Philosophie wider: Wir stehen f&uuml;r solides Handwerk, Ecken und Kanten inklusive, weil wir wissen, dass gerade diese den Charakter eines Raums, eines Geb&auml;udes und eines Zuhauses pr&auml;gen.</p>
                     <p>Unsere qualifizierte Crew betreut mit Herzblut sowohl gewerblicher als auch privater Kundschaft und bringt langj&auml;hrige Erfahrung in&nbsp;vielf&auml;ltigen Handwerksbereichen mit.</p>

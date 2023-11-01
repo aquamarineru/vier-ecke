@@ -55,10 +55,13 @@ export default function Navbar() {
                         <ul className="list-none p-0 m-0 text-center flex flex-col items-center justify-center gap-4">
                             {links.map((link, index) => (
                                 <li key={link.href} className="block h-1/4 min-h-12 transform transition-transform" style={{ animation: isOpen ? `fadeInFromBottom 0.5s forwards ${0.5 + index * 0.1}s` : '' }}>
-                                    <Link href={link.href}>
+                                <Link 
+                                href={link.href}
+                                onClick={() => setIsOpen(false)}>
                                         {link.label}
-                                    </Link>
-                                </li>
+                                    
+                                </Link>
+                            </li>
                             ))}
                         </ul>
                     </nav>
