@@ -47,7 +47,7 @@ export default function ContactForm() {
         name="name" 
         placeholder='Ihr Name*' 
         required
-        className=" border-b-[1px] border-blue bg-transparent px-3 py-3 mt-2 w-full  "/>
+        className=" border-b-[1px] border-blue bg-transparent px-3 py-3 mt-2 w-full "/>
         </div>
         <div className='relative  h-[4rem]'>
             <input 
@@ -76,7 +76,7 @@ export default function ContactForm() {
             className="mr-2"/>
             <label 
             htmlFor="agreeTerms" 
-            className="text-xs text-dark w-[350px] ">
+            className="text-xs text-dark w-[250px] md:w-[350px]">
                 *Ich stimme&nbsp;zu, dass meine Angaben und Daten zur Beantwortung meiner Anfrage gem&auml;&szlig; der 
                 <Link 
                 href="/datenschutz"
