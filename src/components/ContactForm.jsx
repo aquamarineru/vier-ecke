@@ -34,6 +34,7 @@ export default function ContactForm() {
                 console.log(error.text);
             });
     }
+    console.log("Popup state:", popup);
   return (
     <div className="flex justify-around font-light text-sm items-center pt-5">
         <form 
@@ -44,7 +45,7 @@ export default function ContactForm() {
         <input 
         type="text" 
         name="name" 
-        placeholder='Ihr Name' 
+        placeholder='Ihr Name*' 
         required
         className=" border-b-[1px] border-blue bg-transparent px-3 py-3 mt-2 w-full  "/>
         </div>
@@ -52,7 +53,7 @@ export default function ContactForm() {
             <input 
             type="email" 
             name="email"  
-            placeholder='Ihre E-Mail' 
+            placeholder='Ihre E-Mail*' 
             required
             className=" border-b-[1px] border-blue bg-transparent px-3 py-3 mt-2 w-full  "/>
         </div>
@@ -61,7 +62,7 @@ export default function ContactForm() {
             name='message' 
             cols="30" 
             rows="3" 
-            placeholder='Senden Sie mir Ihre Nachricht'
+            placeholder='Senden Sie uns Ihre Nachricht*'
             required
             className=" border-b-[1px] border-blue bg-transparent px-3 py-3 mt-2 w-full  ">
             </textarea>
@@ -90,19 +91,20 @@ export default function ContactForm() {
                 Absenden
             </Button>
         </div>
-        {popup && <div className="absolute top-0 left-0 right-0 bottom-0 bg-dark/80 flex items-center justify-center">
-            <div className="bg-light rounded-md p-5 flex flex-col items-center justify-center gap-5">
-                <p className="text-dark text-center">{popupMessage}</p>
-                <button
+        {popup && 
+    <div className="absolute top-0 left-0 right-0 bottom-0 bg-dark/80 flex items-center justify-center z-50">
+        <div style={{ backgroundColor: '#FFF', padding: '20px', borderRadius: '10px' }} className="flex flex-col items-center justify-center gap-5">
+            <p className="text-dark text-center">{popupMessage}</p>
+            <Button
                 aria-label="Close popup"
-                role="Close popup"
+                role="button"
                 onClick={hidePopup}
-                className="bg-dark text-light px-4 py-2 rounded-md"
-                >
-                    Schließen
-                </button>
-            </div>
-        </div>}
+            >
+                Schließen
+            </Button>
+        </div>
+    </div>
+}
 
         </form>
     

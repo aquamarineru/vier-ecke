@@ -84,7 +84,7 @@ export default function Navbar() {
                         ))}
                     </ul>
                     <button aria-label='Direkt Kontakt' className='bg-blue bg-glass text-light font-semibold rounded-md py-2 px-4 hover:bg-blue/70 transition-all duration-400 ease-in-out'>
-                        <a className='flex flex-row items-center justify-center gap-3' href="mailto:example@gmail.com">
+                        <a className='flex flex-row items-center justify-center gap-3' href="mailto:info.vierecken@gmail.com">
                             Direkt Kontakt
                             <PiArrowRight className='transition-all duration-400 ease-in-out hover:transform hover:translate-x-1 cursor-pointer' />
                         </a>

@@ -6,7 +6,7 @@ export default function Contact() {
   return (
     <div
     id='contact' 
-    className='h-full w-full bg-linear-gradient py-10 md:py-24 bg-light md:px-10 '>
+    className='relative h-full w-full bg-linear-gradient py-10 md:py-24 bg-light md:px-10 '>
         <Container className='flex flex-col items-center'>
             <Title>Kontaktiren Sie uns</Title>
             <Title type='small'>Suchen Sie einen kompetenten Partner im&nbsp;Bereich Hausmeisterservice? Kontaktieren Sie uns. Wir freuen uns auf Ihre Nachricht!</Title>
@@ -29,9 +29,9 @@ export default function Contact() {
                             Email: 
                         </label> 
                         <a 
-                        href="mailto:feedback@vierecke.com" 
+                        href="mailto:info.vierecken@gmail.com" 
                         target="_blank"
-                        className='hover:text-lemon hover:underline transform transition-colors'>info@vierecke.com</a>
+                        className='hover:text-lemon hover:underline transform transition-colors'>info.vierecken@gmail.com</a>
                     </div>
                     <Image
                     src='/images/contact.png'
