@@ -5,7 +5,7 @@ import Link from 'next/link'
 
 export default function Hero() {
   return (
-    <div className='bg-linear-gradient h-full lg:h-screen w-full font-bold md:pt-24'>
+    <div className='bg-linear-gradient h-full lg:h-screen w-full font-bold py-14 md:pt-24'>
       <Container className='flex flex-col-reverse md:justify-around md:flex-row items-center py-10'>
         <div className='flex flex-col items-start justify-center gap-3 px-2 lg:w-1/2'>
           <h2 className='font-light lg:text-xl'>Vier Ecke</h2>

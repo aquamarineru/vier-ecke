@@ -62,7 +62,7 @@ export default function ContactForm() {
         </div>
         <div className='relative mb-2 h-[4rem]'>
             <label
-            className='uppercase absolute top-[-.3rem] left-[1.25rem] p-[0.25rem] bg- rounded '>Nachricht</label>
+            className='uppercase bg-glass absolute top-[-.3rem] left-[1.25rem] p-[0.25rem] bg- rounded '>Nachricht</label>
             <textarea
             name='message' 
             cols="30" 
