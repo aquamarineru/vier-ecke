@@ -5,7 +5,7 @@ import Link from 'next/link'
 
 export default function About() {
   return (
-    <div className='h-full w-full py-10 md:py-24 bg-blue-gradient'>
+    <div className='h-full w-full py-10 md:py-24 bg-linear-gradient'>
         <Container className='flex flex-col items-center'>
             <Title>ÜBER UNS</Title>
             <Title type='small'>Wer steckt hinter Hausmeisterservices "vier Ecke"?</Title>

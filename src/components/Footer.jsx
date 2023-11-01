@@ -5,18 +5,6 @@ import { Container } from './'
 
 const links = [
   {
-      href: '/',
-      label: 'Home',
-  },
-  {
-      href: '/#services',
-      label: 'Unsere Services',
-  },
-  {
-      href: '/#contact',
-      label: 'Kontakt',
-  },
-  {
     href: '/impressum',
     label: 'Impressum',
   },
@@ -28,7 +16,7 @@ const links = [
 export default function Footer() {
   const currentYear = new Date().getFullYear(); 
   return (
-    <footer className='relative bottom-0 bg-light w-full border-t border-dark/40 backdrop-blur-[10px] py-10'>
+    <footer className='relative bottom-0 bg-glass bg-[#EAF7FE] w-full border-t border-light backdrop-blur-[10px] py-10'>
       <Container>
         <nav>
           <ul className="list-none p-0 m-0 text-center flex flex-col items-center justify-center gap-4 md:flex-row md:gap-10">

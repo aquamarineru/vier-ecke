@@ -34,42 +34,42 @@ export default function ContactForm() {
             });
     }
   return (
-    <div className="flex justify-around text-sm items-center pt-5 font-tag">
+    <div className="flex justify-around text-sm items-center pt-5">
         <form 
         ref={form}
         action=""
         onSubmit={sendEmail} >
         <div className='relative mb-2 h-[4rem]'>
         <label
-        className=' uppercase bg-light rounded  absolute top-[-.3rem] left-[1.25rem] p-[0.25rem]'>Name</label>
+        className=' uppercase bg-glass bg-[#b8d0fbbd] rounded  absolute top-[-.3rem] left-[1.25rem] p-[0.25rem]'>Name</label>
         <input 
         type="text" 
         name="name" 
         placeholder='Ihr Name' 
         required
-        className="border-[1px] bg-light border-lemon rounded-md px-3 py-3 mt-2 w-full "/>
+        className=" border-[1px] bg-glass border-blue/40 bg-[#b8d0fbbd] rounded-md px-3 py-3 mt-2 w-full  "/>
         </div>
         <div className='relative mb-2 h-[4rem]'>
             <label
-            className=' uppercase bg-glass bg-light rounded  absolute top-[-.3rem] left-[1.25rem] p-[0.25rem] '>Email</label>
+            className=' uppercase bg-glass bg-[#b8d0fbbd] rounded  absolute top-[-.3rem] left-[1.25rem] p-[0.25rem] '>Email</label>
             <input 
             
             type="email" 
             name="email"  
             placeholder='Ihre E-Mail' 
             required
-            className="border-[1px] bg-glass border-lemon bg-light rounded-md px-3 py-3 mt-2 w-full "/>
+            className="border-[1px] bg-glass border-blue/40 bg-[#b8d0fbbd]  rounded-md px-3 py-3 mt-2 w-full "/>
         </div>
         <div className='relative mb-2 h-[4rem]'>
             <label
-            className='uppercase absolute top-[-.3rem] left-[1.25rem] p-[0.25rem] bg-light rounded '>Nachricht</label>
+            className='uppercase absolute top-[-.3rem] left-[1.25rem] p-[0.25rem] bg-[#b8d0fbbd] rounded '>Nachricht</label>
             <textarea
             name='message' 
             cols="30" 
             rows="5" 
             placeholder='Senden Sie mir Ihre Nachricht'
             required
-            className="border-[1px] bg-glass border-lemon bg-light rounded px-3 py-3 mt-2 w-full ">
+            className="border-[1px] border-blue/40 bg-[#b8d0fbbd] rounded px-3 py-3 mt-2 w-full ">
             </textarea>
         </div>
         <div className="relative top-20 mb-4 flex items-center">
