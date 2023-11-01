@@ -10,7 +10,7 @@ const links = [
   },
   {
     href: '/datenschutz',
-    label: 'Datenschutz',
+    label: 'Datenschutzerklärung',
   },
 ];
 export default function Footer() {

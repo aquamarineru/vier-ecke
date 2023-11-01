@@ -1,6 +1,7 @@
 import React, { useState, useRef } from 'react'
 import emailjs from 'emailjs-com';
 import { Button } from './'
+import Link from 'next/link';
 
 
 export default function ContactForm() {
@@ -74,8 +75,12 @@ export default function ContactForm() {
             className="mr-2"/>
             <label 
             htmlFor="agreeTerms" 
-            className="text-xs text-dark ">
-                Ich stimme den AGB zu
+            className="text-xs text-dark w-[350px] ">
+                *Ich stimme&nbsp;zu, dass meine Angaben und Daten zur Beantwortung meiner Anfrage gem&auml;&szlig; der 
+                <Link 
+                href="/datenschutz"
+                className='hover:text-blue hover:underline'> Datenschutzerkl&auml;rung </Link>
+                verarbeitet werden.
             </label>
         </div>
         <div className='mt-4 '>

@@ -13,11 +13,12 @@ module.exports = {
         blue: '#024190',
         green: '#6EE7B7',
         lemon: '#BBE903',
-        pink: '#AD85AD'
+        pink: '#C4C4DE'
       },
       backgroundImage: {
         'linear-gradient': 'linear-gradient(to left, #A0C1FF, #EAF7FE)',
-        'glass': 'linear-gradient(113.9deg, rgba(255,255,255,0.1) 17.93%, rgba(255,255,255,0.1) 44.28%, rgba(255,255,255,0.15) 63.93%, rgba(255,255,255,0.1) 88.25%)'
+        'glass': 'linear-gradient(113.9deg, rgba(255,255,255,0.1) 17.93%, rgba(255,255,255,0.1) 44.28%, rgba(255,255,255,0.15) 63.93%, rgba(255,255,255,0.1) 88.25%)',
+        'error': 'url(/images/error.png)',
       },
       fontFamily: {
         'eBold': ['Euclid Circular A', 'sans'], 
