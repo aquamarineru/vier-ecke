@@ -34,45 +34,38 @@ export default function ContactForm() {
             });
     }
   return (
-    <div className="flex justify-around text-sm items-center pt-5">
+    <div className="flex justify-around font-light text-sm items-center pt-5">
         <form 
         ref={form}
         action=""
         onSubmit={sendEmail} >
-        <div className='relative mb-2 h-[4rem]'>
-        <label
-        className=' uppercase bg-glass  rounded  absolute top-[-.3rem] left-[1.25rem] p-[0.25rem]'>Name</label>
+        <div className='relative h-[4rem]'>
         <input 
         type="text" 
         name="name" 
         placeholder='Ihr Name' 
         required
-        className=" border-[1px] bg-glass border-blue/40 bg-[#b8d0fbbd] rounded-md px-3 py-3 mt-2 w-full  "/>
+        className=" border-b-[1px] border-blue bg-transparent px-3 py-3 mt-2 w-full  "/>
         </div>
-        <div className='relative mb-2 h-[4rem]'>
-            <label
-            className=' uppercase bg-glass  rounded  absolute top-[-.3rem] left-[1.25rem] p-[0.25rem] '>Email</label>
+        <div className='relative  h-[4rem]'>
             <input 
-            
             type="email" 
             name="email"  
             placeholder='Ihre E-Mail' 
             required
-            className="border-[1px] bg-glass border-blue/40 bg-[#b8cffbb0]  rounded-md px-3 py-3 mt-2 w-full "/>
+            className=" border-b-[1px] border-blue bg-transparent px-3 py-3 mt-2 w-full  "/>
         </div>
-        <div className='relative mb-2 h-[4rem]'>
-            <label
-            className='uppercase bg-glass absolute top-[-.3rem] left-[1.25rem] p-[0.25rem] bg- rounded '>Nachricht</label>
+        <div className='relative  h-[4rem]'>
             <textarea
             name='message' 
             cols="30" 
-            rows="5" 
+            rows="3" 
             placeholder='Senden Sie mir Ihre Nachricht'
             required
-            className="border-[1px] border-blue/40 bg-[#b8d0fbbd] rounded px-3 py-3 mt-2 w-full ">
+            className=" border-b-[1px] border-blue bg-transparent px-3 py-3 mt-2 w-full  ">
             </textarea>
         </div>
-        <div className="relative top-20 mb-4 flex items-center">
+        <div className="mt-10 flex items-center">
             <input 
             type="checkbox" 
             id="agreeTerms" 
@@ -85,7 +78,7 @@ export default function ContactForm() {
                 Ich stimme den AGB zu
             </label>
         </div>
-        <div className='mt-24 '>
+        <div className='mt-4 '>
             <Button
             aria-label="Submit form"
             type="submit">
