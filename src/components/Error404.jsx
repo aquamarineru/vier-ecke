@@ -11,7 +11,7 @@ export default function Error404() {
             <div className='flex flex-col items-center justify-center h-full gap-5'>
                 <Image
                 src='/images/error.png'
-                alt='Vier Ecke 404 Illustration'
+                alt='Vier Ecken 404 Illustration'
                 width={1400}
                 height={800}
                 sizes='(width: 600px) 100vw, 600px'

@@ -31,7 +31,7 @@ export default function Footer() {
 
         </nav>
         <div className='flex flex-col md:flex-row  items-center justify-center md:justify-between text-dark font-light text-xs gap-2 md:gap-5 pt-5'>
-          <div>©Copyright {currentYear} - Vier Ecke</div>
+          <div>©Copyright {currentYear} - Vier Ecken</div>
           <p className='text-center'> Diese Homepage wurde von
             <a 
             href="https://www.codecrafters.online/"

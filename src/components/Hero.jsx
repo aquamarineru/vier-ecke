@@ -8,7 +8,7 @@ export default function Hero() {
     <div className='bg-linear-gradient h-full lg:h-screen w-full font-bold py-14 md:pt-24'>
       <Container className='flex flex-col-reverse md:justify-around md:flex-row items-center py-10'>
         <div className='flex flex-col items-start justify-center gap-3 px-2 lg:w-1/2'>
-          <h2 className='font-light lg:text-xl'>Vier Ecke</h2>
+          <h2 className='font-light lg:text-xl'>Vier Ecken</h2>
           <h1 className='font-bold text-2xl lg:text-6xl tracking-wide'>Willkommen bei unserem Hausmeisterservice</h1>
           <p className='font-light lg:text-xl'>Probleme mit Ihrer Immobilie?</p>
           <p className='font-light lg:text-xl md:w-2/3'>Senden Sie uns eine Anfrage – 
@@ -26,7 +26,7 @@ export default function Hero() {
         <div>
           <Image
             src="/images/hero.png"
-            alt="Vier Ecke Hero Illustration"
+            alt="Vier Ecken Hero Illustration"
             sizes="(width: 600px) 100vw, 1400px"
             priority={true}
             width={1400}

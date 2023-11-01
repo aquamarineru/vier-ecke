@@ -13,7 +13,7 @@ export default function Contact() {
             <div className='pt-10 flex flex-col md:flex-row justify-between lg:gap-5 items-center md:items-start'>
                 <div className='flex flex-col'>
                     <h3 className='font-semibold'>
-                    "Vier Ecke" Hausmeisterservice
+                    "Vier Ecken" Hausmeisterservice
                     </h3>
                     <div className='flex flex-row font-light items-center gap-2'>
                         <label className='font-light'>
@@ -35,7 +35,7 @@ export default function Contact() {
                     </div>
                     <Image
                     src='/images/contact.png'
-                    alt='Vier Ecke Contact Illustration'
+                    alt='Vier Ecken Contact Illustration'
                     width={1400}
                     height={800}
                     sizes='(width: 600px) 100vw, 600px'

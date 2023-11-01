@@ -34,7 +34,7 @@ export default function Navbar() {
             <div className='flex flex-row justify-between items-center'>
                 <Image
                 src="/images/logo.png"
-                alt="Vier Ecke Logo"
+                alt="Vier Ecken Logo"
                 width={100}
                 height={50}
                 className="object-cover object-center md:hidden"
@@ -70,7 +70,7 @@ export default function Navbar() {
                 <nav className="hidden md:flex items-center justify-between w-full">
                     <Image
                             src="/images/logo.png"
-                            alt="Vier Ecke Logo"
+                            alt="Vier Ecken Logo"
                             width={100}
                             height={50}
                     />

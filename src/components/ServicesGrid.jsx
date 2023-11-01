@@ -8,7 +8,7 @@ export default function ServicesGrid() {
     <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 grid-rows-2 gap-5 mt-10 md:px-3 items-start lg:gap-7'>
       <Image
       src='/images/services.png'
-      alt='Vier Ecke Services Illustration'
+      alt='Vier Ecken Services Illustration'
       width={1400}
       height={800}
       className='object-cover object-center w-full h-full'
@@ -48,7 +48,7 @@ export default function ServicesGrid() {
       </div>
       <Image 
         src='/images/service.png'
-        alt='Vier Ecke Services Illustration'
+        alt='Vier Ecken Services Illustration'
         width={1400}
         height={800}
         className='object-cover object-center w-full h-full'
