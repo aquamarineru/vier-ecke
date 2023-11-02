@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://www.vierecken.pro/
+
+# Sitemaps
+Sitemap: https://www.vierecken.pro/sitemap.xml
