@@ -18,6 +18,7 @@ export default function Layout({ children }) {
           <meta property="og:image" content="URL_TO_YOUR_IMAGE" /> 
           <meta property="og:url" content="YOUR_WEBSITE_URL" /> 
           <meta property="og:type" content="website" />
+          <meta name="google-site-verification" content="m2ew7vm0zpUYgcozcQgGjHfDrw90xcl3Srl9Gc5gncU" />
           <link rel="icon" href="/images/logo.png" />
         </Head>
         <Navbar />
