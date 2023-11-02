@@ -11,12 +11,12 @@ export default function Layout({ children }) {
           <meta name="viewport" content="width=device-width, initial-scale=1" />
           <meta name="description" content="Vier Ecken bietet professionelle Hausmeisterdienste in Bayern, Deutschland an. Wir kümmern uns um Wartung, Reparaturen und vieles mehr für Ihr Zuhause oder Geschäft." />
           <meta name="keywords" content="Hausmeisterdienste, Bayern, Vier Ecken, Wartung, Reparaturen, Renovierungsarbeiten, Umzüge, Trockenbau, Deutschland" />
-          <meta name="author" content="Vier Ecken" />
+          <meta name="author" content="www.codecrafters.online" />
           {/* Open Graph tags */}
           <meta property="og:title" content="Vier Ecken - Hausmeisterdienste in Bayern" />
           <meta property="og:description" content="Vier Ecken bietet professionelle Hausmeisterdienste in Bayern, Deutschland an." />
-          <meta property="og:image" content="URL_TO_YOUR_IMAGE" /> 
-          <meta property="og:url" content="YOUR_WEBSITE_URL" /> 
+          <meta property="og:image" content="/images/about.png" /> 
+          <meta property="og:url" content="https://www.vierecken.pro/" /> 
           <meta property="og:type" content="website" />
           <meta name="google-site-verification" content="m2ew7vm0zpUYgcozcQgGjHfDrw90xcl3Srl9Gc5gncU" />
           <link rel="icon" href="/images/logo.png" />
