@@ -6,9 +6,9 @@ import Link from 'next/link'
 
 export default function Error404() {
   return (
-    <div className='w-full h-screen bg-pink flex flex-col justify-center items-center'>
+    <div className='w-full h-full bg-pink flex flex-col justify-center items-center'>
         <Container>
-            <div className='flex flex-col items-center justify-center h-full gap-5'>
+            <div className='flex flex-col items-center justify-center h-full gap-5 py-24'>
                 <Image
                 src='/images/error.png'
                 alt='Vier Ecken 404 Illustration'

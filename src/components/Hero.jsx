@@ -17,7 +17,7 @@ export default function Hero() {
             <Button
             aria-label='contact us'>
               <Link href="/#contact">
-                Kontaktiren Sie uns
+                Kontaktieren Sie uns
               </Link>
             </Button>
           </div>

@@ -34,7 +34,6 @@ export default function ContactForm() {
                 console.log(error.text);
             });
     }
-    console.log("Popup state:", popup);
   return (
     <div className="flex justify-around font-light text-sm items-center pt-5">
         <form 
